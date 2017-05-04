@@ -9,7 +9,7 @@ Gestionnaire Graphique pour Blih sous [Angular](https://angular.io/)
 
 ## Package utilisé
 
-* [ngx-resource](https://www.npmjs.com/package/ngx-resource)
+* [ngx-restangular](https://www.npmjs.com/package/ngx-restangular)
 
 # Angular CLI
 
