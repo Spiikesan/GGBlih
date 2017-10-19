@@ -46,11 +46,11 @@ export default {
     ],
     checked: ''
   }},
-  computed() {return {
+  computed: {
     activeRepo: function() {
       return this.repos[this.checked]
     }
-  }}
+  }
 }
 </script>
 

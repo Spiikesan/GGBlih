@@ -32,30 +32,39 @@ export default {
     ],
     checked: ''
   }},
-  computed() { return {
+  computed: {
     activeRepo: function() {
       return this.repos[this.checked]
     },
     login: function() {
       return storageService.get('login');
     }
-  }},
-  methods() { return {
+  },
+  methods: {
     getRepoList: function() {
-      request.get()
+      // request.get()
+      console.log('getRepoList()');
     }
-  }}
+  }
 }
 </script>
 
 <style lang="scss">
+
+#app {
+  background-color: lightgrey;
+  padding: 10px;
+  height: 100%;
+}
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  // color: #2c3e50;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 h1, h2 {
